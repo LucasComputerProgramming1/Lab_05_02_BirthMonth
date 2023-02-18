@@ -6,12 +6,12 @@ public class BirthMonth {
         System.out.println("What is your birth month?");
         //Input
         System.out.println(birthMonth);
-        //Output If Correct
+        //Output If Valid
         if(birthMonth <= 12 && birthMonth > 0)
         {
             System.out.println("Your birth month is " + birthMonth);
         }
-        //Output If Incorrect
+        //Output If Invalid
         else
         {
             System.out.println("You entered an incorrect month value: " + birthMonth);
